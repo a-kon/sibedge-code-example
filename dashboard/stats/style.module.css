@@ -1,0 +1,8 @@
+.wrapper {
+    margin-top: 45px;
+}
+
+.problems {
+    display: flex;
+    justify-content: space-between;
+}

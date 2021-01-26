@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+}
+
+.button {
+    min-width: 92px;
+    padding: 8px 15px 4px;
+    border: 1px solid var(--gainsboro);
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button:not(:last-child) {
+    border-right: none;
+}
+
+.active {
+    color: #fff;
+    background-color: var(--dodger-blue);
+    border-color: var(--dodger-blue);
+}

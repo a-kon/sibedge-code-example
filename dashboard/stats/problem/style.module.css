@@ -1,0 +1,25 @@
+.wrapper {
+    position: relative;
+    padding-left: 18px;
+}
+
+.point {
+    background-color: var(--mantis);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.avg {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--light-gray)
+}
